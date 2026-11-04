@@ -1,0 +1,42 @@
+.galleryvid{
+    display:inline-flex;
+    margin-top:12%;
+    scrollbar-width:auto;
+    max-width:90%;
+    margin-left:5%;
+    gap:10px;
+}
+.gallerysea{
+    display:inline-flex;
+    margin-left:25%;
+    gap:10px;
+}
+.seas{
+    width:150px;
+    height:33px;
+    background-color:#303134;
+    outline-color:#5f6368;
+    outline-width: 2p;
+    border-radius:100px;
+    color:#fff;
+    box-shadow:none;
+    border:0;
+    cursor:pointer;
+    margin-top:10%;
+} 
+.seas:hover{
+    background-color: #4a4d50;
+}
+.dis{
+    width:150px;
+    height:33px;
+    background-color:#5f6368;
+    outline-color:#5f6368;
+    outline-width: 2p;
+    border-radius:100px;
+    cursor:default;
+    box-shadow: none;
+    color:#fff;
+    margin-top:2%;
+    border:0;
+}

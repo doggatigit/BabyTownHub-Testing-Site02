@@ -1,0 +1,177 @@
+html {
+  scrollbar-color: lightyellow #16181e; /* First value: Thumb color, Second value: Track background color */
+  scrollbar-width: auto; /* Options: auto, thin, or none */
+}
+
+@media (max-width:3000px; min-width: 801px) {
+    .mob {display:none}
+    .desk {display:block}
+
+}
+
+@media (max-width;800px){
+    .desk {display:none}
+    .mob {display:block}
+    
+}
+.gallery{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left:5%;
+    outline-color: transparent;
+}
+
+.gallery .description{
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+}
+.imgslct:hover{
+    background-color: #303134;
+    filter:brightness(105%)
+}
+.lockedlong{
+    height:300px ;
+    position:relative;
+    bottom: 24px;
+    left:10px;
+}
+.header{
+    position: fixed;
+    top: 5px;
+    z-index: 1000;
+}
+.headbacker{
+    position:fixed;
+    top:0;
+    width: 100%;
+    height:75px;
+    z-index: 999;
+    left: 0px;
+}
+.sectionsdropdown{
+    font-size:25px;
+    position:fixed;
+    top:20px;
+    z-index: 1000;
+    left:100px;
+    color:#fff;
+}
+
+.sectionsdropped{
+    border: 1px solid #16181e;
+    transition: all 0.25s;
+    position: absolute;
+    max-height: 200px;
+    overflow: hidden scroll;
+    font-size: 20px;
+}
+
+.sectionsdropped a{
+    display: block;
+    color:rgb(255, 240, 156);
+    background-image: url(images/btpediatopperheader.png);
+    width:100px;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding:10px 5px;
+
+}
+
+.sectionsdropped a:hover{
+    color:rgb(255, 209, 93);
+}
+
+.sectiondropbutton{
+
+}
+.hide{
+    max-height: 0;
+}
+::-webkit-scrollbar{
+    background:#16181e;
+}
+::-webkit-scrollbar-thumb{
+    background:lightyellow;
+    border-radius: 50px;
+}
+.headerd{
+    position: fixed;
+    top: 5px;
+    z-index: 1000;
+}
+.headbackerd{
+    position:fixed;
+    top:0;
+    width: 100%;
+    height:110px;
+    z-index: 999;
+    left: 0px;
+}
+.sectionsdropdownd{
+    font-size:40px;
+    position:fixed;
+    top:25px;
+    z-index: 1000;
+    left:10%;
+    color:#fff;
+}
+
+.sectionsdroppedd{
+    border: 1px solid #16181e;
+    transition: all 0.25s;
+    position: absolute;
+    max-height: 200px;
+    overflow: hidden scroll;
+}
+
+.sectionsdroppedd a{
+    display: block;
+    color:gold;
+    background-image: url(images/btpediatopperheader.png);
+    width:200px;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding:5px 20px;
+
+}
+
+.sectionsdroppedd a:hover{
+    color:goldenrod;
+}
+
+.sectiondropbuttond{
+
+}
+.hide{
+    max-height: 0;
+}
+.galleryd{
+    display: inline-block;
+    margin: 150px;
+    outline-color: transparent;
+}
+
+.galleryd .descriptiond{
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+}
+.imgslctd:hover{
+    background-color: #303134;
+    filter:brightness(105%)
+}
+.lockedlongd{
+    height:300px ;
+    position:relative;
+    bottom: 24px;
+    left:10px;
+}
+.chatlink{
+    color:#fff;
+    top: 50px;
+    z-index: 1001;
+    left:20%;
+}
